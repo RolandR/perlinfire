@@ -10,9 +10,20 @@ html, body{
 	overflow: hidden;
 }
 
+body{
+	background-color: #000000;
+}
+
 #canvasContainer{
 	height: 100%;
 	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+canvas{
+	margin: auto;
+	border: 5px #222222 solid;
 }
 
 #renderCanvas{
